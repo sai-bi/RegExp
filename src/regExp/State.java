@@ -1,10 +1,10 @@
 package regExp;
 
 public class State {
-	int tranform;
-	State out;
-	State out1;
-	int lastList;
+	public int tranform;
+	public State out;
+	public State out1;
+	public int lastList;
 	
 	public State(){
 		tranform = 0;
@@ -12,4 +12,5 @@ public class State {
 		out1 = null;
 		lastList = 0;
 	}
+	
 }
